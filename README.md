@@ -40,26 +40,47 @@ The fluid parameters are chosen to exaggerate the effect of gravity and water co
 One can consider bottom or side water drive by adding an influx or pressure boundary conditions. We can add a dip angle to the reservoir or consider a displacement along the less permeable fault by using permeability multipliers.
 
 Hanging Block, Yellow
+
 Porosity	0.1
+
 Permeability	50 mD
+
 Travelling Block, pink
+
 porosity	0.3
+
 permeability	600 mD
+
 Reservoir Dimensions
+
 Lx	1500 meter
+
 Ly	1000 meter
+
 Lz	200 meter
+
 Pore Volume	430.852 MMSTB
+
 Grid Dimensions
+
 nx	60
+
 ny	40
+
 nz	10
+
 Fluid Properties
+
 Water Density	1014 KG
+
 Water Viscosity	1 cp
+
 Swr	0.2
+
 Oil Density	400 KG
+
 Oil Viscosity	10 cp
+
 Sor	0.15
 
 
