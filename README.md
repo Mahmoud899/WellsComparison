@@ -1,8 +1,6 @@
 # Well Response Comparison
 
-<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/VerticalProducer.jpg" width="200" height="150" /> 
-<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/HorizontalProducer.jpg" width="200" height="150" /> 
-<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/MultilateralProducer.jpg" width="200" height="150" />
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/VerticalProducer.jpg" width="250" height="200" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/HorizontalProducer.jpg" width="250" height="200" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/MultilateralProducer.jpg" width="250" height="200" />
 
 The mathematical model of Incompressible Immiscible two-phase flow can be written as two main equations and a set of constitutive relations.
 
