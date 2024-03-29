@@ -1,6 +1,8 @@
 # Well Response Comparison
 
-<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/VerticalProducer.jpg" width="200" height="150" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/HorizontalProducer.jpg" width="200" height="150" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/MultilateralProducer.jpg" width="200" height="150" />
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/VerticalProducer.jpg" width="200" height="150" /> 
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/HorizontalProducer.jpg" width="200" height="150" /> 
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/MultilateralProducer.jpg" width="200" height="150" />
 
 The mathematical model of Incompressible Immiscible two-phase flow can be written as two main equations and a set of constitutive relations.
 
@@ -34,7 +36,7 @@ I ran a simulation using MRST, MATLAB Reservoir Simulation Toolbox, on a reservo
 
 <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case1Simulaion.jpg" /> 
 
-<imgsrc="https://github.com/Mahmoud899/WellsComparison/blob/master/Case2Simulation.jpg"  /> 
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case2Simulation.jpg"  /> 
 	       
 <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case3Simulaion.jpg" />
 
