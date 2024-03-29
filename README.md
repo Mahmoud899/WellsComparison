@@ -32,7 +32,11 @@ I ran a simulation using MRST, MATLAB Reservoir Simulation Toolbox, on a reservo
 	A Horizontal Producer
 	A Multilateral Producer
 
-<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case1Simulaion.jpg" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case2Simulation.jpg" width="200" height="150" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case3Simulaion.jpg" width="200" height="150"/>
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case1Simulaion.jpg" /> 
+
+<imgsrc="https://github.com/Mahmoud899/WellsComparison/blob/master/Case2Simulation.jpg"  /> 
+	       
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case3Simulaion.jpg" />
 
 We can see in the simulation results that the waterfront from the lowest penetrations penetrates through the better zone then gradually builds up a water tongue. 
 In the case of a vertical producer, we see that the advancing water reaches the lowest perforations after 5.3 years. 
