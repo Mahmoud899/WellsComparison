@@ -1,5 +1,7 @@
 # Well Response Comparison
 
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/VerticalProducer.jpg" width="200" height="150" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/HorizontalProducer.jpg" width="200" height="150" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/MultilateralProducer.jpg" />
+
 The mathematical model of Incompressible Immiscible two-phase flow can be written as two main equations and a set of constitutive relations.
 
 One elliptic pressure equation
@@ -16,9 +18,9 @@ v ⃗=-[λ_n+λ_w ]∇p_n+ λ_w ∇p_c+(λ_n ρ_n+λ_w ρ_w )g∇z
 
 we can see that the pressure equation is an elliptic PDE, we can interpret it as the following:
 
-The gradient of the pressure gives us a vector field that points in the direction of maximum increase in pressure at a given point. The divergence of that field gives us how that field is spread at a given point.
-So, the divergence of the gradient of the pressure field is related to the flow rate q, a source or sink term that accounts for a well, and the effect of gravity. Which is intuitive,  the pressure field in the reservoir will only change if a well is set to flow or due to gravity.
-The saturation equation is a parabolic PDE, with hyperbolic character, which describes waves travelling with finite speed. Which is again reasonable because water will flow in the reservoir at a finite speed. The equation accounts for the balance of three different forces:
+The gradient of the pressure gives us a vector field that points in the direction of the maximum increase in pressure at a given point. The divergence of that field gives us how that field is spread at a given point.
+So, the divergence of the gradient of the pressure field is related to the flow rate q, a source or sink term that accounts for a well, and the effect of gravity. This is intuitive,  the pressure field in the reservoir will only change if a well is set to flow or due to gravity.
+The saturation equation is a parabolic PDE, with a hyperbolic character, which describes waves traveling with finite speed. This is again reasonable because water will flow in the reservoir at a finite speed. The equation accounts for the balance of three different forces:
 Viscous advection, the velocity term, gravity segregation and capillary pressure.
 The pressure and saturation equations are coupled. The mobility term appearing in the pressure equation depends on saturation and the velocity term in the saturation equation depends on pressure.
 The fractional flow formulation is useful because it minimizes that coupling and under some assumptions and simplifications that coupling breaks.
@@ -30,10 +32,11 @@ I ran a simulation using MRST, MATLAB Reservoir Simulation Toolbox, on a reservo
 	A Horizontal Producer
 	A Multilateral Producer
 
+<img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case1Simulaion.jpg" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case2Simulation.jpg" width="200" height="150" /> <img src="https://github.com/Mahmoud899/WellsComparison/blob/master/Case3Simulaion.jpg" />
 
 We can see in the simulation results that the waterfront from the lowest penetrations penetrates through the better zone then gradually builds up a water tongue. 
 In the case of a vertical producer, we see that the advancing water reaches the lowest perforations after 5.3 years. 
-For the horizontal producer the water reaches the far west side of the reservoir and then extends upward flooding the middle part of the well after 7.2 years. 
+For the horizontal producer, the water reaches the far west side of the reservoir and then extends upward flooding the middle part of the well after 7.2 years. 
 The multilateral well extends through the permeable rock towards the fault. The water reaches the middle lateral first after 3.4 years and then the other parts of the well.
 The response of the multilateral well will depend on the well path and the number of laterals.
 The fluid parameters are chosen to exaggerate the effect of gravity and water coning.
